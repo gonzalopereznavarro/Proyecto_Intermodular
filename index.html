@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FaceRecPy - Reconocimiento Facial Inteligente para Empresas</title>
+    <meta name="description"
+        content="Solución empresarial de reconocimiento facial con precisión del 99.7%. Control de acceso, análisis de audiencia y verificación de identidad.">
+    <meta name="keywords" content="reconocimiento facial, biometría, control de acceso, seguridad empresarial, IA">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Barra de navegación mejorada -->
+    <nav class="barra-navegacion">
+        <div class="contenedor">
+            <div class="logo">
+                <span class="logo-texto">FaceRec<span class="logo-destacado">Py</span></span>
+                <span class="logo-badge">Enterprise</span>
+            </div>
+            <ul class="menu">
+                <li><a href="#inicio" class="activo">Inicio</a></li>
+                <li><a href="#soluciones">Soluciones</a></li>
+                <li><a href="#como-funciona">Tecnología</a></li>
+                <li><a href="#casos-exito">Casos de éxito</a></li>
+                <li><a href="#demo">Demo</a></li>
+            </ul>
+            <div class="nav-actions">
+                <a href="tel:+34621013862" class="nav-telefono">
+                    <i class="fas fa-phone-alt"></i> +34 621 013 862
+                </a>
+                <button class="boton-primario" id="abrir-demo">
+                    <i class="fas fa-calendar-check"></i> Solicitar demo
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sección Hero mejorada -->
+    <section id="inicio" class="seccion-hero">
+        <div class="contenedor hero-contenido">
+            <div class="hero-texto">
+                <div class="hero-badge">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>Seguridad biométrica avanzada</span>
+                </div>
+                <h1 class="hero-titulo">
+                    Reconocimiento facial
+                    <span class="texto-destacado">empresarial</span>
+                    con precisión del 99.7%
+                </h1>
+                <p class="hero-descripcion">
+                    Implementa la tecnología más avanzada en identificación biométrica.
+                    Control de acceso, análisis de audiencia y verificación de identidad
+                    en tiempo real para tu empresa.
+                </p>
+
+                <div class="hero-botones">
+                    <button class="boton-primario" id="ver-soluciones">
+                        <i class="fas fa-rocket"></i> Explorar soluciones
+                    </button>
+                    <button class="boton-secundario" id="contactar-ventas">
+                        <i class="fas fa-headset"></i> Hablar con ventas
+                    </button>
+                </div>
+
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-numero">99.7%</span>
+                        <span class="stat-etiqueta">Precisión</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-numero">500+</span>
+                        <span class="stat-etiqueta">Clientes</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-numero">0.3s</span>
+                        <span class="stat-etiqueta">Respuesta</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-imagen">
+                <div class="hero-card">
+                    <div class="hero-card-header">
+                        <div class="hero-card-dots">
+                            <span></span><span></span><span></span>
+                        </div>
+                        <span>Demo en vivo</span>
+                    </div>
+                    <div class="hero-card-content">
+                        <img src="./Imagenes/Logo_FaceRePy.png" alt="FaceRecPy Technology" class="imagen-principal">
+                        <div class="hero-scan-effect"></div>
+                    </div>
+                    <div class="hero-card-footer">
+                        <div class="hero-metric">
+                            <i class="fas fa-user-check"></i>
+                            <span>23 rostros detectados</span>
+                        </div>
+                        <div class="hero-metric">
+                            <i class="fas fa-bolt"></i>
+                            <span>Tiempo real</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-scroll">
+            <span>Descubre más</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Sección de soluciones mejorada -->
+    <section id="soluciones" class="seccion-soluciones">
+        <div class="contenedor">
+            <div class="encabezado-seccion">
+                <span class="seccion-badge">Soluciones</span>
+                <h2 class="titulo-seccion">
+                    Tecnología adaptada a
+                    <span class="texto-destacado">cada necesidad</span>
+                </h2>
+                <p class="subtitulo-seccion">
+                    Ofrecemos soluciones personalizadas de reconocimiento facial
+                    para diferentes sectores y casos de uso
+                </p>
+            </div>
+
+            <div class="soluciones-grid">
+                <div class="solucion-card">
+                    <div class="solucion-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>Control de acceso corporativo</h3>
+                    <p>Gestión biométrica de empleados con registro automático de entrada/salida y alertas de seguridad.
+                    </p>
+                    <ul class="solucion-features">
+                        <li><i class="fas fa-check"></i> Integración con sistemas existentes</li>
+                        <li><i class="fas fa-check"></i> Reportes en tiempo real</li>
+                        <li><i class="fas fa-check"></i> Multi-sede</li>
+                    </ul>
+                    <a href="#" class="solucion-link">Saber más <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="solucion-card featured">
+                    <div class="solucion-badge">Más popular</div>
+                    <div class="solucion-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Análisis de audiencia</h3>
+                    <p>Métrica precisa de edad, género y emociones para optimizar estrategias de marketing.</p>
+                    <ul class="solucion-features">
+                        <li><i class="fas fa-check"></i> Datos demográficos</li>
+                        <li><i class="fas fa-check"></i> Mapas de calor</li>
+                        <li><i class="fas fa-check"></i> Dashboard interactivo</li>
+                    </ul>
+                    <a href="#" class="solucion-link">Saber más <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="solucion-card">
+                    <div class="solucion-icon">
+                        <i class="fas fa-id-card"></i>
+                    </div>
+                    <h3>Verificación de identidad</h3>
+                    <p>Autenticación segura para pagos, trámites digitales y procesos críticos.</p>
+                    <ul class="solucion-features">
+                        <li><i class="fas fa-check"></i> Anti-spoofing</li>
+                        <li><i class="fas fa-check"></i> Cumplimiento GDPR</li>
+                        <li><i class="fas fa-check"></i> Trazabilidad completa</li>
+                    </ul>
+                    <a href="#" class="solucion-link">Saber más <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="solucion-card">
+                    <div class="solucion-icon">
+                        <i class="fas fa-tshirt"></i>
+                    </div>
+                    <h3>Retail inteligente</h3>
+                    <p>Analiza el comportamiento de clientes y personaliza la experiencia de compra.</p>
+                    <ul class="solucion-features">
+                        <li><i class="fas fa-check"></i> Tiempos de espera</li>
+                        <li><i class="fas fa-check"></i> Clientes recurrentes</li>
+                        <li><i class="fas fa-check"></i> Ofertas personalizadas</li>
+                    </ul>
+                    <a href="#" class="solucion-link">Saber más <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de tecnología (cómo funciona) mejorada -->
+    <section id="como-funciona" class="seccion-tecnologia">
+        <div class="contenedor">
+            <div class="tecnologia-grid">
+                <div class="tecnologia-contenido">
+                    <span class="seccion-badge">Tecnología</span>
+                    <h2 class="titulo-seccion">
+                        IA avanzada en
+                        <span class="texto-destacado">3 pasos</span>
+                    </h2>
+                    <p class="tecnologia-descripcion">
+                        Nuestro algoritmo de deep learning procesa cada rostro en milisegundos,
+                        garantizando precisión y velocidad sin comprometer la privacidad.
+                    </p>
+
+                    <div class="pasos-vertical">
+                        <div class="paso-vertical-item">
+                            <div class="paso-vertical-numero">01</div>
+                            <div class="paso-vertical-contenido">
+                                <h4>Detección y captura</h4>
+                                <p>Localizamos el rostro en el frame con nuestra red neuronal TinyFaceDetector,
+                                    optimizada para dispositivos de bajos recursos.</p>
+                            </div>
+                        </div>
+
+                        <div class="paso-vertical-item">
+                            <div class="paso-vertical-numero">02</div>
+                            <div class="paso-vertical-contenido">
+                                <h4>Extracción de características</h4>
+                                <p>Convertimos las características faciales en un vector único de 128 dimensiones (face
+                                    descriptor).</p>
+                            </div>
+                        </div>
+
+                        <div class="paso-vertical-item">
+                            <div class="paso-vertical-numero">03</div>
+                            <div class="paso-vertical-contenido">
+                                <h4>Verificación y análisis</h4>
+                                <p>Comparamos con tu base de datos y analizamos edad, género y emociones en tiempo real.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tecnologia-stats">
+                        <div class="tech-stat">
+                            <span class="tech-stat-valor">5M+</span>
+                            <span class="tech-stat-label">rostros procesados</span>
+                        </div>
+                        <div class="tech-stat">
+                            <span class="tech-stat-valor">98%</span>
+                            <span class="tech-stat-label">menos falsos positivos</span>
+                        </div>
+                        <div class="tech-stat">
+                            <span class="tech-stat-valor">24/7</span>
+                            <span class="tech-stat-label">soporte</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tecnologia-visual">
+                    <div class="tech-demo-card">
+                        <div class="tech-demo-header">
+                            <span>Procesamiento en vivo</span>
+                            <div class="tech-demo-status">
+                                <span class="status-dot"></span>
+                                Activo
+                            </div>
+                        </div>
+                        <div class="tech-demo-body">
+                            <div class="tech-scan-area">
+                                <div class="scan-line"></div>
+                                <div class="face-points">
+                                    <span style="top: 30%; left: 40%;"></span>
+                                    <span style="top: 40%; left: 60%;"></span>
+                                    <span style="top: 50%; left: 30%;"></span>
+                                    <span style="top: 60%; left: 70%;"></span>
+                                    <span style="top: 70%; left: 45%;"></span>
+                                    <span style="top: 35%; left: 55%;"></span>
+                                    <span style="top: 45%; left: 35%;"></span>
+                                    <span style="top: 65%; left: 55%;"></span>
+                                </div>
+                            </div>
+                            <div class="tech-metrics">
+                                <div class="tech-metric">
+                                    <span>Edad</span>
+                                    <strong>32 años</strong>
+                                </div>
+                                <div class="tech-metric">
+                                    <span>Género</span>
+                                    <strong>Masculino</strong>
+                                </div>
+                                <div class="tech-metric">
+                                    <span>Expresión</span>
+                                    <strong>Neutral</strong>
+                                </div>
+                                <div class="tech-metric">
+                                    <span>Confianza</span>
+                                    <strong>98%</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nueva sección: Casos de éxito -->
+    <section id="casos-exito" class="seccion-casos">
+        <div class="contenedor">
+            <div class="encabezado-seccion">
+                <span class="seccion-badge">Casos de éxito</span>
+                <h2 class="titulo-seccion">
+                    Empresas que <span class="texto-destacado">confían</span> en nosotros
+                </h2>
+            </div>
+
+            <div class="casos-grid">
+                <div class="caso-card">
+                    <div class="caso-logo">🏦</div>
+                    <h3>Banco Santander</h3>
+                    <p>"Redujimos el fraude en un 95% y mejoramos la experiencia del cliente en sucursales digitales."
+                    </p>
+                    <div class="caso-stats">
+                        <div>
+                            <span class="caso-stat">95%</span>
+                            <span>menos fraude</span>
+                        </div>
+                        <div>
+                            <span class="caso-stat">2s</span>
+                            <span>verificación</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="caso-card">
+                    <div class="caso-logo">🏪</div>
+                    <h3>Mercadona</h3>
+                    <p>"Implementamos análisis de audiencia en 200 tiendas, optimizando la disposición de productos."
+                    </p>
+                    <div class="caso-stats">
+                        <div>
+                            <span class="caso-stat">+23%</span>
+                            <span>ventas</span>
+                        </div>
+                        <div>
+                            <span class="caso-stat">200</span>
+                            <span>tiendas</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="caso-card">
+                    <div class="caso-logo">🏭</div>
+                    <h3>Grupo Antolín</h3>
+                    <p>"Automatizamos el control de acceso de 5,000 empleados en 12 plantas industriales."</p>
+                    <div class="caso-stats">
+                        <div>
+                            <span class="caso-stat">5,000</span>
+                            <span>empleados</span>
+                        </div>
+                        <div>
+                            <span class="caso-stat">12</span>
+                            <span>plantas</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="casos-cta">
+                <p>Únete a más de 500 empresas que ya transformaron su seguridad</p>
+                <button class="boton-primario">Ver todos los casos</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Demo mejorada -->
+    <section id="demo" class="seccion-demo">
+        <div class="contenedor">
+            <div class="encabezado-seccion">
+                <span class="seccion-badge">Demo interactiva</span>
+                <h2 class="titulo-seccion">
+                    Prueba nuestra <span class="texto-destacado">tecnología</span>
+                </h2>
+                <p class="subtitulo-seccion">
+                    Activa tu cámara y comprueba la precisión de nuestro algoritmo
+                    en tiempo real. Todos los datos se procesan localmente,
+                    garantizando tu privacidad.
+                </p>
+            </div>
+
+            <div class="demo-grid">
+                <div class="demo-camara">
+                    <div class="camara-wrapper">
+                        <video id="video-demo" autoplay playsinline></video>
+                        <canvas id="canvas-demo"></canvas>
+
+                        <div class="camara-overlay" id="camara-overlay">
+                            <div class="overlay-message">
+                                <i class="fas fa-video"></i>
+                                <p>Haz clic en "Iniciar cámara" para comenzar</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="demo-controls">
+                        <button class="control-btn primary" id="btn-iniciar-camara">
+                            <i class="fas fa-camera"></i>
+                            Iniciar cámara
+                        </button>
+                        <button class="control-btn" id="btn-capturar" disabled>
+                            <i class="fas fa-camera-retro"></i>
+                            Capturar
+                        </button>
+                        <button class="control-btn" id="btn-registrar" disabled>
+                            <i class="fas fa-user-plus"></i>
+                            Registrar
+                        </button>
+                        <button class="control-btn success" id="btn-reconocer" disabled>
+                            <i class="fas fa-search"></i>
+                            Reconocer
+                        </button>
+                        <button class="control-btn danger" id="btn-detener" disabled>
+                            <i class="fas fa-stop"></i>
+                            Detener
+                        </button>
+                    </div>
+                    <div class="demo-stats">
+                        <div class="demo-stat">
+                            <span class="demo-stat-label">Estado</span>
+                            <span class="demo-stat-value" id="estado-demo">
+                                <span class="status-dot offline"></span>
+                                Desconectado
+                            </span>
+                        </div>
+                        <div class="demo-stat">
+                            <span class="demo-stat-label">Rostros</span>
+                            <span class="demo-stat-value" id="rostros-demo">0</span>
+                        </div>
+                        <div class="demo-stat">
+                            <span class="demo-stat-label">Edad</span>
+                            <span class="demo-stat-value" id="edad-demo">-</span>
+                        </div>
+                        <div class="demo-stat">
+                            <span class="demo-stat-label">Género</span>
+                            <span class="demo-stat-value" id="genero-demo">-</span>
+                        </div>
+                        <div class="demo-stat">
+                            <span class="demo-stat-label">Expresión</span>
+                            <span class="demo-stat-value" id="expresion-demo">-</span>
+                        </div>
+                        <div class="demo-stat">
+                            <span class="demo-stat-label">Confianza</span>
+                            <span class="demo-stat-value" id="confianza-demo">-</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="demo-sidebar">
+                    <div class="demo-panel">
+                        <div class="panel-header">
+                            <h3>
+                                <i class="fas fa-users"></i>
+                                Personas registradas
+                            </h3>
+                            <span class="panel-count" id="personas-count">0</span>
+                        </div>
+                        <div class="lista-personas" id="lista-personas">
+                            <div class="empty-state">
+                                <i class="fas fa-user-plus"></i>
+                                <p>No hay personas registradas</p>
+                                <small>Captura y registra un rostro para comenzar</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="demo-panel">
+                        <div class="panel-header">
+                            <h3>
+                                <i class="fas fa-chart-simple"></i>
+                                Estadísticas de demo
+                            </h3>
+                        </div>
+                        <div class="demo-quick-stats">
+                            <div class="quick-stat">
+                                <span class="quick-stat-label">Detecciones hoy</span>
+                                <span class="quick-stat-value" id="detecciones-hoy">0</span>
+                            </div>
+                            <div class="quick-stat">
+                                <span class="quick-stat-label">Tiempo promedio</span>
+                                <span class="quick-stat-value" id="tiempo-promedio">0ms</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de contacto mejorada -->
+    <section id="contacto" class="seccion-contacto">
+        <div class="contenedor">
+            <div class="contacto-wrapper">
+                <div class="contacto-info">
+                    <span class="seccion-badge">Contacto</span>
+                    <h2 class="titulo-seccion">
+                        ¿Listo para <span class="texto-destacado">transformar</span>
+                        tu negocio?
+                    </h2>
+                    <p class="contacto-descripcion">
+                        Descubre cómo nuestras soluciones de reconocimiento facial
+                        pueden ayudarte a mejorar la seguridad y eficiencia de tu empresa.
+                    </p>
+
+                    <div class="contacto-metodos">
+                        <div class="contacto-metodo">
+                            <div class="metodo-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div>
+                                <span class="metodo-label">Teléfono directo</span>
+                                <a href="tel:+34621013862" class="metodo-valor">+34 621 013 862</a>
+                            </div>
+                        </div>
+
+                        <div class="contacto-metodo">
+                            <div class="metodo-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <span class="metodo-label">Email comercial</span>
+                                <a href="mailto:ventas@facerecpy.com" class="metodo-valor">ventas@facerecpy.com</a>
+                            </div>
+                        </div>
+
+                        <div class="contacto-metodo">
+                            <div class="metodo-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <span class="metodo-label">Oficina central</span>
+                                <span class="metodo-valor">Almería, España</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contacto-social">
+                        <span>Síguenos:</span>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+
+                <div class="contacto-formulario">
+                    <form id="formulario-contacto" class="formulario-moderno">
+                        <h3>Envíanos un mensaje</h3>
+
+                        <div class="form-grid">
+                            <div class="form-group full">
+                                <input type="text" id="nombre" required>
+                                <label for="nombre">Nombre completo</label>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="email" id="email" required>
+                                <label for="email">Email corporativo</label>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="text" id="empresa" required>
+                                <label for="empresa">Empresa</label>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="tel" id="telefono" required>
+                                <label for="telefono">Teléfono</label>
+                            </div>
+
+                            <div class="form-group full">
+                                <select id="interes" required>
+                                    <option value="" disabled selected></option>
+                                    <option value="acceso">Control de acceso</option>
+                                    <option value="audiencia">Análisis de audiencia</option>
+                                    <option value="verificacion">Verificación de identidad</option>
+                                    <option value="otro">Otro</option>
+                                </select>
+                                <label for="interes">¿Qué solución te interesa?</label>
+                            </div>
+
+                            <div class="form-group full">
+                                <textarea id="mensaje" rows="3" required></textarea>
+                                <label for="mensaje">Mensaje</label>
+                            </div>
+                        </div>
+
+                        <div class="form-footer">
+                            <label class="checkbox">
+                                <input type="checkbox" required>
+                                <span>Acepto la política de privacidad y el tratamiento de datos</span>
+                            </label>
+                            <button type="submit" class="boton-primario">
+                                Enviar mensaje
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer mejorado -->
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <span class="footer-logo">FaceRec<span>Py</span></span>
+                    <p class="footer-description">
+                        Tecnología de reconocimiento facial líder en España.
+                        Innovación, seguridad y precisión para tu empresa.
+                    </p>
+                    <div class="footer-certificaciones">
+                        <span class="cert-badge">GDPR</span>
+                        <span class="cert-badge">ISO 27001</span>
+                        <span class="cert-badge">AENOR</span>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Producto</h4>
+                    <ul>
+                        <li><a href="#soluciones">Soluciones</a></li>
+                        <li><a href="#demo">Demo</a></li>
+                        <li><a href="#precios">Precios</a></li>
+                        <li><a href="#documentacion">Documentación API</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Compañía</h4>
+                    <ul>
+                        <li><a href="#sobre-nosotros">Sobre nosotros</a></li>
+                        <li><a href="#casos-exito">Casos de éxito</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-newsletter">
+                    <h4>Newsletter</h4>
+                    <p>Recibe las últimas novedades en IA y reconocimiento facial</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Tu email" required>
+                        <button type="submit">
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <span>&copy; 2026 FaceRecPy. Todos los derechos reservados.</span>
+                    <a href="#privacidad">Política de privacidad</a>
+                    <a href="#cookies">Cookies</a>
+                    <a href="#legal">Aviso legal</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal mejorado -->
+    <div class="modal-moderno" id="modal-demo">
+        <div class="modal-contenido">
+            <button class="modal-cerrar" id="cerrar-modal">
+                <i class="fas fa-times"></i>
+            </button>
+
+            <div class="modal-header">
+                <h2>Solicitar demostración personalizada</h2>
+                <p>Un experto te contactará en menos de 24h</p>
+            </div>
+
+            <form id="formulario-demo" class="modal-form">
+                <div class="form-group">
+                    <input type="text" id="demo-nombre" required>
+                    <label for="demo-nombre">Nombre completo</label>
+                </div>
+
+                <div class="form-group">
+                    <input type="email" id="demo-email" required>
+                    <label for="demo-email">Email corporativo</label>
+                </div>
+
+                <div class="form-group">
+                    <input type="text" id="demo-empresa" required>
+                    <label for="demo-empresa">Empresa</label>
+                </div>
+
+                <div class="form-group">
+                    <input type="tel" id="demo-telefono" required>
+                    <label for="demo-telefono">Teléfono</label>
+                </div>
+
+                <div class="form-group">
+                    <select id="demo-empleados" required>
+                        <option value="" disabled selected></option>
+                        <option value="1-10">1-10 empleados</option>
+                        <option value="10-50">10-50 empleados</option>
+                        <option value="50-200">50-200 empleados</option>
+                        <option value="200+">Más de 200 empleados</option>
+                    </select>
+                    <label for="demo-empleados">Tamaño de la empresa</label>
+                </div>
+
+                <button type="submit" class="boton-primario modal-submit">
+                    Solicitar demo
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+
+                <p class="modal-legal">
+                    Al enviar, aceptas nuestra política de privacidad y el tratamiento de tus datos.
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <!-- Overlay de carga mejorado -->
+    <div class="carga-overlay" id="overlay-carga" style="display: none;">
+        <div class="carga-contenido">
+            <div class="carga-spinner"></div>
+            <h3>Cargando modelos de IA</h3>
+            <p id="carga-mensaje">Inicializando redes neuronales...</p>
+            <div class="carga-progreso">
+                <div class="carga-barra" id="carga-barra" style="width: 0%"></div>
+            </div>
+            <ul class="carga-pasos">
+                <li id="paso-detector">✓ Detector facial</li>
+                <li id="paso-landmarks">○ Landmarks</li>
+                <li id="paso-reconocimiento">○ Reconocimiento</li>
+                <li id="paso-expresiones">○ Expresiones</li>
+                <li id="paso-edad">○ Edad/Género</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/face-api.js@0.22.2/dist/face-api.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
